@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cs153-2dfet-encoder-decoder"
+version = "0.0.1"
+description = "Foundation-style encoder-decoder for 2D semiconductor FET parameter extraction."
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
