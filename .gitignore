@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+# Models
+runs/
+*.pt
+*.keras
+*.h5
+*.npy
+*.tdr
+*.plt
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+.DS_Store
+.idea/
+.vscode/
